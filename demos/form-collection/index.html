@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FileManager Form Collection Demo</title>
+	<link rel="stylesheet" href="../../src/styles/filemanager.css">
+</head>
+<body>
+	<main class="fm-demo-page">
+		<h1>Form binding</h1>
+		<form id="articleForm" class="fm-demo-panel fm-demo-row">
+			<label>
+				Title
+				<input class="fm-demo-input" name="title" value="Quarterly report">
+			</label>
+			<label>
+				Description
+				<textarea class="fm-demo-textarea" name="description">Files are submitted as stable IDs.</textarea>
+			</label>
+			<div id="attachments"></div>
+			<button type="submit" class="fm-button fm-primary-button">Save form</button>
+		</form>
+		<pre id="result"></pre>
+	</main>
+	<script type="module" src="./form-collection.js"></script>
+</body>
+</html>

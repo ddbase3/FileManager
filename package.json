@@ -1,0 +1,23 @@
+{
+	"name": "filemanager",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"description": "Standalone Vanilla JavaScript file manager and form control with drag and drop, chunked uploads and container management.",
+	"scripts": {
+		"serve": "python3 -m http.server 8000",
+		"check": "find src -name '*.js' -print0 | xargs -0 -n1 node --check",
+		"smoke": "node tests/node-smoke/smoke.mjs"
+	},
+	"keywords": [
+		"file-manager",
+		"upload",
+		"chunk-upload",
+		"drag-drop",
+		"form-control",
+		"vanilla-js",
+		"es-modules"
+	],
+	"dependencies": {},
+	"devDependencies": {}
+}
