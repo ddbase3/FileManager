@@ -53,8 +53,8 @@
 	color: #777;
 }
 
-.fm-file-input {
-	display: none;
+.fm-root input.fm-file-input[type="file"] {
+	display: none !important;
 }
 
 .fm-button,
